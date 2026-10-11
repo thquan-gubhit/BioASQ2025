@@ -1,0 +1,29 @@
+# VS Code
+.vscode/
+
+# Bytecode & cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+.venv/
+.env
+
+# dataset directory
+/dataset/*
+!/dataset/.gitkeep
+
+# json files
+*.json
+
+# output directory
+/output/*
+!/output/.gitkeep
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb
+
+# test
+/tests/*

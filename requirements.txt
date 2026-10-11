@@ -1,0 +1,19 @@
+# Python 3.11
+biopython>=1.83,<2
+google-genai>=1,<2
+openai>=1.42,<2
+pydantic>=2,<3
+python-dotenv>=1,<2
+rouge-metric==1.0.1
+sentence-transformers>=3.4,<4
+tiktoken>=0.7,<1
+torch>=2.2,<3
+tqdm>=4.66,<5
+
+# Keep spaCy and scispaCy compatible with the default en_core_sci_md model.
+spacy>=3.7,<3.8
+# spaCy 3.7 imports standalone Click; Typer 0.26+ vendors it instead.
+typer>=0.24,<0.26
+click>=8.2.1,<8.3
+scispacy==0.5.4
+en-core-sci-md @ https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_md-0.5.4.tar.gz
